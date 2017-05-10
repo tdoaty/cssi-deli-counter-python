@@ -1,13 +1,7 @@
-katz_
-    if len(katz_deli) == 0
-        print "There is nobody waiting to be served!"
-    return now_serving
-
-
 katz_deli = []
-def line():
+def line(katz_deli):
     i = 0 +1
-    if len(katz_deli)>= 1
+    if len(katz_deli) >=1
         print "The line is currently: " + katz_deli
     else:
     if len(katz_deli) == 0
