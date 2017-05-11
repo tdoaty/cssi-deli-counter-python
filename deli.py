@@ -1,7 +1,7 @@
 katz_deli = []
-def line(list_of_customers):
+def line(katz_deli):
     deli_list_string = "The line is currently: "
-    for i in range(0,len(list_of_customers)):
+    for i in range(0,len(katz_deli)):
         deli_list_string += stri(i+1) + ". " list_of_customers[i] + " "
     return deli_list_string
 
@@ -20,6 +20,7 @@ def now_serving(katz_deli):
 
 
 
-def take_a_number(arg):
+def take_a_number(katz_deli, new_customer):
+
 
 def now_serving():
