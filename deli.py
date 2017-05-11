@@ -1,12 +1,9 @@
 katz_deli = []
-def line(katz_deli):
-    i = 0 +1
-    if len(katz_deli) >=1
-        print "The line is currently: " + katz_deli
-    else:
-    if len(katz_deli) == 0
-        print "The line is currently empty."
-    return line
+def line(list_of_customers):
+    deli_list_string = "The line is currently: "
+    for i in range(0,len(list_of_customers)):
+        deli_list_string += stri(i+1) + ". " list_of_customers[i] + " "
+    return deli_list_string
 
 def take_a_number(katz_deli, name):
     katz_deli.append(name)
@@ -19,3 +16,10 @@ def now_serving(katz_deli):
     if len(katz_deli) == 0
         print "There is nobody waiting to be served!"
     return now_serving
+
+
+
+
+def take_a_number(arg):
+
+def now_serving():
