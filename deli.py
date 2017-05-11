@@ -12,5 +12,7 @@ def take_a_number(katz_deli, new_customer):
     return "Welcome, " + new_customer+ ". You are number " + str(len(katz_deli)) + "in line."
 
 def now_serving(katz_deli):
+    if len(katz_deli) == 0
+        return "There is nobody waiting to be served."
     current_customer = katz_deli.pop(0)
     return "Currently serving " + current_customer + "."
